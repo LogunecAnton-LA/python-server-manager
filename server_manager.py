@@ -50,7 +50,7 @@ while True:
             print("Kein Server wurde geloescht")
         for number, server in servers.items():
             print(f"[{number}] - {server}")
-        print("" * 30)
+        print("-" * 30)
     elif number == 4:
         print("Aufwiedersehen!")
         break
